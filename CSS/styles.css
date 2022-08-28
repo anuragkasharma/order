@@ -1,0 +1,82 @@
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    color: black;
+}
+body{
+    background-color:rgb(224, 232, 255);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: rgb(115, 115, 115);
+}
+.card{
+    position: relative;
+    right: 720px;
+    top: 100px;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+.hero{
+    width: 320px;
+    border-radius: 16px 16px 0 0 ;
+}
+.plan{
+    position: relative;
+    left: 30px;
+    width: 270px;
+    top: 10px;
+    height: 70px;
+    border-radius: 12px;
+    background-color:#edf0f9;
+}
+.music{
+   float: left;
+   margin-top: 10px;
+   margin-left: 5px;
+}
+h1{
+    color: black;
+}
+h3{
+    margin-right: 90px;
+    margin-left: 40px;
+    padding: 10px;
+    color: black;
+}
+.fix{
+    position: relative;
+    bottom: 40px;
+    color: rgb(114, 114, 114);
+}
+.rate{
+    position: relative;
+    bottom: 55px;
+    left: 50px;
+    text-decoration: underline;
+    color: blue;
+}
+.btn {
+    margin-top: 30px;
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #133cc2;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    border: 0;
+  }
+  
+  .btn:hover {
+    background: #3c43fc;
+    text-decoration: none;
+  }
